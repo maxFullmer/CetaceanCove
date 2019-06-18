@@ -1,0 +1,61 @@
+* {margin: 0; padding: 0; font-size: 12px;}
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: .80em;
+	color: #333333;
+    background-image: url(images/Rio2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section1 {
+    border: 1px solid blue;
+    background-color: lightskyblue;
+}
+
+main {
+    display: block;
+    float: right;
+    width: 90%;
+    clear: both;
+    margin-left: auto;
+    margin-right: 20px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+main img {
+    float: right;
+    width: 50%;
+    height: 30%;
+}
+
+#navigation {
+    width: 100%;
+}
+
+nav li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    border-right: 2px solid white;
+    background-color: orange;
+    width: 24.7%;
+}
+
+nav a {
+	background-color: none;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	line-height: 2em;
+    text-decoration: none;
+    color: white;
+}
+
+
+nav li:nth-child(4) {
+    border-right: none;
+}

@@ -1,3 +1,20 @@
-.background {
-    background-image: url(./images/Island-Dolphins-Desktop-Backgrounds-www.wallpapersbrowse.com.jpg)
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: .80em;
+	color: #333333;
+    background-image: url(images/Island-Dolphins-Desktop-Backgrounds-www.wallpapersbrowse.com.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navFlex > li {
+    background-color: orange;
+    color: white;
 }
