@@ -1,4 +1,9 @@
+a {
+    text-decoration: none;
+}
+
 body {
+    height: 200vh;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: .80em;
 	color: #333333;
@@ -8,13 +13,37 @@ body {
     background-attachment: fixed;
 }
 
-.navFlex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: orange;
+    height: 5vh;
+    z-index: 10;
 }
 
-.navFlex > li {
-    background-color: orange;
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+}
+
+nav ul li {
+    border-left: white;
+    border-left-width: 2px;
+}
+
+nav ul li a {
     color: white;
+}
+
+nav ul > li {
+    border-left: none;
+}
+
+.underNav {
+    position: relative;
+    top: 5vh;
+    z-index: 9;
 }

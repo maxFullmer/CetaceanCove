@@ -1,0 +1,10 @@
+body {
+    height: 200vh;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: .80em;
+	color: #333333;
+    background-image: url(images/humanDolphinInteraction.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
