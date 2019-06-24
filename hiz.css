@@ -1,3 +1,7 @@
+a {
+    text-decoration: none;
+}
+
 body {
     height: 200vh;
 	font-family: Verdana, Geneva, sans-serif;
@@ -8,3 +12,34 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: orange;
+    height: 5vh;
+    z-index: 10;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    top: 1vh;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: white;
+}
+
+nav ul > li {
+    border-left: none;
+}
+
+/* .underNav {
+    position: relative;
+    top: 5vh;
+    z-index: 9;
+} */
