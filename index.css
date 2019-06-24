@@ -24,14 +24,10 @@ nav {
 nav ul {
     list-style-type: none;
     display: flex;
+    position: relative;
+    top: 1vh;
     flex-direction: row;
     justify-content: space-around;
-    align-self: center;
-}
-
-nav ul li {
-    border-left: white;
-    border-left-width: 2px;
 }
 
 nav ul li a {
@@ -42,8 +38,64 @@ nav ul > li {
     border-left: none;
 }
 
-.underNav {
+#underNav {
+    height: 315px;
+    width: 100%;
     position: relative;
     top: 5vh;
     z-index: 9;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.welcome {
+    width: 25%;
+    padding-top: 2vh;
+    padding-right: 2vw;
+    text-align: right;
+    font-family: 'Courgette', cursive;
+    font-size: 2em;
+    font-weight: 500;
+    color: #a11118;
+}
+
+#column {
+    display: flex;
+    flex-direction: column;
+}
+article {
+    height: 100%;
+    position: relative;
+    top: 5vh;
+    /* background-color: olive; */
+    padding: 5vh 10vw;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section {
+    /* background-color: chocolate; */
+    width: 80%;
+    text-align: center;
+}
+
+#sideContent {
+    position: absolute;
+    top: 110vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    /* background-color: chocolate; */
+}
+
+.ads {
+    width: 8%;
+    height: 70vh;
+    background-color:blue;
+    margin: 1%;
 }
